@@ -1,0 +1,21 @@
+1. newcoder 57.1
+2. 是否存在两数平方和为target
+用目标数的平方根做右边界，0作为左边界，循环条件为left<=right
+3. 反转字符串中的元音字符
+将元音字符aeiou和AEIOU放进一个hashset里面，为了达到空间复杂度为1（变量的个数为1）的目标，
+可以将此变量设置为static final的：
+private final static HashSet<Character> vowels = new HashSet<>(
+        Arrays.asList('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'));
+用set.contains()判断此处字母是否为元音字母
+4. 可以删除一个字符，判断是否能构成回文字符串。
+双指针，charAt(left)不等于charAt(right)的时候，
+尝试尝试删除left(left+1)或者right(即right-1)，再判断，二者满足一个就行。
+5. 严格意义上，这道题用了三指针。两种做法
+我之前的做法：新建一个m+n长度的int数组，最后再从头遍历覆盖给nums1。三个指针起始指向三个数组的头部。
+新方法，无需创建新的数组，节省了空间，时间也没变：
+	(重点在于从尾部开始比较)：两个指针分别指向两个数组的m、n，第三个指针指向m+n-1
+6. 判断链表是否存在环
+方法一：空间换时间：用HashSet。
+方法二：计较时间：快慢指针，二倍速和一倍速最后必定相遇
+7. 最长子序列
+判断str1是否包含str2，两个指针分别指向str1、str2的头部，右移、判断。str2走完了就返回true，str1走完了str2还没走完，返回false。

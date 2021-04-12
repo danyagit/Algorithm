@@ -1,0 +1,38 @@
+package com.xjf.algorithm.leetcode.shujujiegou.shu.BST;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+//5. 二叉树的最近公共祖先(medium)
+public class BST05 {
+
+	public static void main(String[] args) {
+
+	}
+
+	public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+		Queue<TreeNode> queue = new LinkedList<>();
+		queue.add(root);
+		TreeNode cur=null;
+		while(!queue.isEmpty()) {
+			cur = queue.poll();
+			if(judge(cur,p,q)) {
+				return cur;
+			}
+			if(cur.left!=null) {
+				queue.add(cur.left);
+			}
+			if(cur.right!=null) {
+				queue.add(cur.right);
+			}
+		}
+		return null;
+	}
+
+	private boolean judge(TreeNode root,TreeNode p, TreeNode q) {
+		if(root.val==p.val||root.val==q.val) {
+			return true;
+		}
+		return judge(root.left)&&judge(root.right);
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.xjf.ZJ1&apos; to &apos;com.xjf&apos;&#x0D;&#x0A;- Original project: &apos;字节牛客真题&apos;&#x0D;&#x0A;- Original element: &apos;字节牛客真题/src/com.xjf.ZJ1&apos;&#x0D;&#x0A;- Renamed element: &apos;字节牛客真题/src/com.xjf&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.xjf.ZJ1&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.xjf.ZJ1" name="com.xjf" qualified="false" references="true" stamp="1617022757742" textual="false" version="1.0"/>
+</session>

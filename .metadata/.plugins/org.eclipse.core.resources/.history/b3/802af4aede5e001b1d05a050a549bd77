@@ -1,0 +1,8 @@
+package com.xjf.algorithm.leetcode.shujujiegou.shu.BST;
+//4. 二叉查找树的最近公共祖先
+public class BST04 {
+
+	public static void main(String[] args) {
+	}
+
+}

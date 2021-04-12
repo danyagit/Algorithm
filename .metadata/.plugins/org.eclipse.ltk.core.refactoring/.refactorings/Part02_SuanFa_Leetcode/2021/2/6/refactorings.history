@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;搜索.txt&apos; to &apos;链表-newcoder.txt&apos;&#x0D;&#x0A;- Original project: &apos;Part02_SuanFa_Leetcode&apos;&#x0D;&#x0A;- Destination element: &apos;链表-newcoder.txt&apos;&#x0D;&#x0A;- Original element: &apos;搜索.txt&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move file" element1="src/com/xjf/algorithm/leetcode/suanfasixiang/fenzhi/搜索.txt" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1612339741620" target="/Part01_SuanFa_JianZhiOffer/src/com/xjf/algorithm/JianZhiOffer/链表-newcoder.txt" units="0" version="1.0"/>
+</session>

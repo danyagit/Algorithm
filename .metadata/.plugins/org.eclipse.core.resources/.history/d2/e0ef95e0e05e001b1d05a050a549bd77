@@ -1,0 +1,22 @@
+package com.xjf.algorithm.leetcode.shujujiegou.shu.BST;
+
+//4. 二叉查找树的最近公共祖先
+public class BST04 {
+
+	public static void main(String[] args) {
+	}
+	//从上到下，第一个是p、q之间的
+	public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+		if(root==null) {
+			return null;
+		}
+		if(root.val>Math.min(p.val, q.val)&&root.val<Math.max(p.val, q.val)) {
+			return root;
+		}
+		if(lowestCommonAncestor(root.left, p, q)!=null) {
+			return lowestCommonAncestor(root.right, p, q);
+		}else {
+			return lowestCommonAncestor(root.right, p, q);
+		}
+	}
+}

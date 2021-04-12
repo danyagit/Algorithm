@@ -1,0 +1,19 @@
+package com.xjf.algorithm.leetcode.shujujiegou.shu.BST;
+
+//2. 寻找二叉查找树的第 k 个元素
+public class BST02 {
+
+	public static void main(String[] args) {
+
+	}
+	int order=0;
+	//中序遍历的第k个元素
+	public int kthSmallest(TreeNode root, int k) {
+		if(root==null) {
+			return -1;
+		}
+		kthSmallest(root.left,k);
+		order++;
+		kthSmallest(root.right,k);
+	}
+}

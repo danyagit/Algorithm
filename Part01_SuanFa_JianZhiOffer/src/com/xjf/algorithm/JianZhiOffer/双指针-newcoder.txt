@@ -1,0 +1,12 @@
+57.1 递增数组 两数之和。
+显然可以用首尾双指针
+57.2 和为 S 的连续正数序列  TODO！！！！！
+这个有点麻烦，注意减小时间复杂度
+58.1 "I am a student." --->"student. a am I"
+先翻转每个单词，再翻转整个，反过来也可以。这样不会占用额外的空间
+也可以：String[] arr = str.split(" "); 再翻转字符串。这样时间复杂度小一些
+API:Arrays.copyOfRange(array, left, right+1);
+	StringBuffer.append
+58.2 将字符串 S 从第 K 位置分隔成两个子字符串，并交换这两个子字符串的位置。
+先翻转前半部分，再翻转后半部分，再整个翻转。这样不会占用额外的空间
+也可以：String.subString(int left,int right)+StringBuffer.append(String str);这样不费时间

@@ -1,0 +1,7 @@
+package com.xjf;
+
+import java.sql.Connection;
+
+public class MyConnection implements Connection {
+
+}

@@ -1,0 +1,13 @@
+package com.xjf.algorithm.leetcode.shujujiegou.shu.BST;
+
+//5. 二叉树的最近公共祖先
+public class BST05 {
+
+	public static void main(String[] args) {
+
+	}
+
+	public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+
+	}
+}

@@ -1,0 +1,17 @@
+package com.xjf.algorithm.leetcode.shujujiegou.shu.BST;
+
+//ÐÞ¼ô¶þ²æËÑË÷Ê÷
+public class BST01 {
+
+	public static void main(String[] args) {
+
+	}
+
+	int low = 0;
+	int hight = 0;
+
+	public TreeNode trimBST(TreeNode root, int low, int high) {
+
+		return null;
+	}
+}

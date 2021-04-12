@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.leetcode.Exercise04&apos; to &apos;Exercise25&apos;&#x0D;&#x0A;- Original project: &apos;afatcoder&apos;&#x0D;&#x0A;- Original element: &apos;com.leetcode.Exercise04&apos;&#x0D;&#x0A;- Renamed element: &apos;com.leetcode.Exercise25&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Exercise04&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.leetcode{Exercise04.java[Exercise04" matchStrategy="1" name="Exercise25" qualified="false" references="true" similarDeclarations="false" stamp="1612840514266" textual="false" version="1.0"/>
+</session>

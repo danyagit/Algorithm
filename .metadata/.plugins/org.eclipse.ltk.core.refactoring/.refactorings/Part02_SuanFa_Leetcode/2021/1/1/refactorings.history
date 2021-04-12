@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Part02_SuanFa_Leetcode/src/com/xjf/algorithm/leetcode/suanfasixiang/dp/0-1问题总结.txt&apos; to &apos;背包问题总结.txt&apos;" description="Rename resource &apos;0-1问题总结.txt&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/xjf/algorithm/leetcode/suanfasixiang/dp/0-1问题总结.txt" name="背包问题总结.txt" stamp="1609568635518" updateReferences="true"/>
+</session>
